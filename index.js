@@ -1,11 +1,11 @@
 const express = require("express");
-require("./src/db/mongoose");
+require("./bckend/db/mongoose");
 const cors = require("cors");
-// const userRouter = require("./src/routers/user");
-const userRouter = require("./src/routers/user");
+// const userRouter = require("./bckend/routers/user");
+const userRouter = require("./bckend/routers/user");
 const dotenv = require("dotenv");
-const feedRouter = require("./src/routers/feed");
-const admin = require("./src/routers/admin");
+const feedRouter = require("./bckend/routers/feed");
+const admin = require("./bckend/routers/admin");
 const app = express();
 
 const path = require("path");
