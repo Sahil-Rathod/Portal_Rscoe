@@ -19,6 +19,7 @@ import OnClickProfile from "./components/FindAlumni/OnClickProfile";
 import About from "./components/About/About";
 // import AdminLogin from "./components/Admin/AdminLogin/AdminLogin";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
+import SignUpStudent from "./components/LoginPage/SignUpStudent";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
               <Route path="/signUp">
                 {" "}
                 <SignUp />
+              </Route>
+              <Route path="/signUpStudent">
+                {" "}
+                <SignUpStudent />
               </Route>
               <Route path="/signin">
                 {" "}

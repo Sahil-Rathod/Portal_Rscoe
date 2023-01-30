@@ -392,7 +392,11 @@ export default function Navbar() {
           </div>
           <div className="RightNavOut">
             <Link to="/signUp" className="SignInUpClass">
-              SIGN UP
+              Sign Up As Alumni
+            </Link>
+            <p className="SignInUpPartition"></p>
+            <Link to="/signUpStudent" className="SignInUpClass">
+              Sign Up As Student
             </Link>
             <p className="SignInUpPartition"></p>
             <Link to="/signIn" className="SignInUpClass">
