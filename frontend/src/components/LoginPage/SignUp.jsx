@@ -185,7 +185,7 @@ const SignUp = () => {
             </div>
           </div>
           <div className="signup-form">
-            <h1 className="loginform-register-text">Register Account</h1>
+            <h1 className="loginform-register-text">Register As Alumni</h1>
             <p className="loginform-graduatedtext">
               {/* For those who have graduated from JSPM's RSCOE. */}
             </p>
