@@ -3,7 +3,7 @@ import "./DesignedCarousel.css";
 import SliderImg1 from "../About/Images/1.jpg";
 import SliderImg2 from "../About/Images/2.jpg";
 import SliderImg3 from "../About/Images/3.jpg";
-import SliderImg4 from "../About/Images/4.jpg";
+import SliderImg4 from "../About/Images/aluimg.jpg";
 import SliderImg5 from "../About/Images/5.jpg";
 import SliderImg6 from "../About/Images/6.jpg";
 import SliderImg7 from "../About/Images/7.jpg";

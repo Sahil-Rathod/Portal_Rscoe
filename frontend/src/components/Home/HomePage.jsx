@@ -7,7 +7,7 @@ import YoutubeVideos from "./YouTubeVideos/YoutubeVideos";
 import userContext from "../../context/userContext";
 import { css } from "@emotion/react";
 import { ClipLoader } from "react-spinners";
-
+import Review from "./Testinomial/Review";
 const APIkey = "AIzaSyBrWprelFdIodGD9EZu9dxsQpTjjLZC8Ik";
 const channelId = "UC4Pc9V7-QjsJZKkUS8I0iqw";
 const result = "100";
@@ -112,7 +112,8 @@ const HomePage = () => {
       <CarouselComponent />
       <PlarformInfo />
       <YoutubeVideos />
-      <Testinomial />
+      <Review />
+      {/* <Testinomial /> */}
     </>
   );
 };

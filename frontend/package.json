@@ -4,12 +4,14 @@
   "private": true,
   "proxy": "http://167.71.236.109/",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.7.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "buffer": "^6.0.3",
-    "nodemon": "^2.0.20",
+    "emailjs": "^4.0.1",
+    "nodemon": "^2.0.22",
     "pure-react-carousel": "^1.27.8",
     "react": "^17.0.2",
     "react-burger-menu": "^3.0.6",
@@ -51,5 +53,10 @@
   },
   "experimental": {
     "esmExternals": false
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }

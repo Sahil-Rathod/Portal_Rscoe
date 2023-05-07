@@ -5,6 +5,15 @@ import "./CarouselComponent.css";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
+import img_sli from "../../About/Images/collegeImg.jpg";
+import img_sli1 from "../../About/Images/7.jpg";
+import img_sli2 from "../../About/Images/2.jpg";
+import img_sli3 from "../../About/Images/3.jpg";
+import img_sli4 from "../../About/Images/aluimg.jpg";
+import img_sli5 from "../../About/Images/5.jpg";
+import img_sli6 from "../../About/Images/6.jpg";
+import Welcome from "../ExplorePlatform/Welcome/Welcome";
+
 // const APIkey = "AIzaSyCW62Nn00V6RCkSvLJ0_i0zSg097Xj30hQ";
 // const channelId = "UC4Pc9V7-QjsJZKkUS8I0iqw";
 // const result = "100";
@@ -42,11 +51,12 @@ const CarouselComponent = () => {
   // }, []);
 
   return (
-    <>
+    <div className="main-slider">
+      {/* <Welcome /> */}
       <CarouselProvider
         naturalSlideWidth={100}
         naturalSlideHeight={45}
-        totalSlides={2}
+        totalSlides={7}
         interval={5000}
         isPlaying={true}
         infinite={true}
@@ -55,27 +65,68 @@ const CarouselComponent = () => {
           <Slide index={0}>
             {" "}
             <img
-              src="Images/collegeImg.jpg"
+              src={img_sli}
               alt="Img"
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "130%" }}
             />
           </Slide>
+
           <Slide index={1}>
             {" "}
-            <iframe
-              width="100%"
-              height="100%"
-              // src={`https://www.youtube.com/embed/${youtubeUrl[0]}`}
-              src={`https://www.youtube.com/embed/PbqfY_XCLPY`}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <img
+              src={img_sli1}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
+          </Slide>
+
+          <Slide index={2}>
+            {" "}
+            <img
+              src={img_sli2}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
+          </Slide>
+
+          <Slide index={3}>
+            {" "}
+            <img
+              src={img_sli3}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
+          </Slide>
+
+          <Slide index={4}>
+            {" "}
+            <img
+              src={img_sli4}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
+          </Slide>
+
+          <Slide index={5}>
+            {" "}
+            <img
+              src={img_sli5}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
+          </Slide>
+
+          <Slide index={6}>
+            {" "}
+            <img
+              src={img_sli6}
+              alt="Img"
+              style={{ width: "100%", height: "130%" }}
+            />
           </Slide>
         </Slider>
       </CarouselProvider>
-    </>
+    </div>
   );
 };
 

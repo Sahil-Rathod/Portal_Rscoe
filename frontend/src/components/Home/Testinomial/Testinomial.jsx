@@ -6,11 +6,7 @@ const Testinomial = () => {
       <div className="message-main">
         <h1>Message from Dr. R.K Jain Director, RSCOE</h1>
         <div className="message">
-          <img
-            // src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
-            src="Images/PrincipalIMG.jpeg"
-            alt="avatar"
-          />
+          <img src="Images/PrincipalIMG.jpeg" alt="avatar" />
           <p>
             Dear Friends,
             <br /> It is with immense pride, that I introduce you to an entirely

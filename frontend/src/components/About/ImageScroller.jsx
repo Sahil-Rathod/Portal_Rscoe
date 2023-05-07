@@ -4,7 +4,7 @@ import "./ImageScroller.css";
 import SliderImg1 from "./Images/1.jpg";
 import SliderImg2 from "./Images/2.jpg";
 import SliderImg3 from "./Images/3.jpg";
-import SliderImg4 from "./Images/4.jpg";
+import SliderImg4 from "./Images/aluimg.jpg";
 import SliderImg5 from "./Images/5.jpg";
 import SliderImg6 from "./Images/6.jpg";
 import SliderImg7 from "./Images/7.jpg";

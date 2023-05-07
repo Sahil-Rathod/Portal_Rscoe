@@ -8,6 +8,8 @@
   color: #ffffff;
   text-align: center;
   margin: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .alumni-talk-video {
   display: flex;

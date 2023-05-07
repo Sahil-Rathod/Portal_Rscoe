@@ -20,6 +20,8 @@ import About from "./components/About/About";
 // import AdminLogin from "./components/Admin/AdminLogin/AdminLogin";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 import SignUpStudent from "./components/LoginPage/SignUpStudent";
+import Engage from "./components/Home/Engage/Engage";
+import GuestLecture from "./components/Home/Engage/GuestLecture";
 
 function App() {
   return (
@@ -51,6 +53,14 @@ function App() {
               </Route>
               <Route path="/events">
                 <Events />
+                <Footer />
+              </Route>
+              <Route path="/engagealumni">
+                <Engage />
+                <Footer />
+              </Route>
+              <Route path="/guestlecture">
+                <GuestLecture />
                 <Footer />
               </Route>
               {/* <Route path="/adminLogin">
